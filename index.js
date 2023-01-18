@@ -15,6 +15,15 @@ for (let i = 0; i < ages.length; i++) {
     console.log("avergae of all ages =", sum / ages.length);
 }
 
-console.log("question 02 part A;");
+console.log("question 02;");
 let names = ['sam', 'tommy', 'tim', 'sally', 'buck', 'Bob'];
-console.log(names)
+console.log(names);
+console.log("question number 02 part A:");
+
+let sumOfLetters = 0;
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i].length);
+    sumOfLetters = sumOfLetters + names[i].length;
+}
+console.log("sum of all name letters added togther", sumOfLetters);
+console.log("average number of letters in each name", sumOfLetters / names.length)
