@@ -118,8 +118,35 @@ console.log(array1 > array2);
 
 console.log("question number 12:");
 
+function willBuyDrinks(isHotOutside, moneyInPocket) {
+    if (isHotOutside) {
+        return true
+    }
+    else if (moneyInPocket == 10.5) {
+        return true;
+    }
+    else if (moneyInPocket <= 10.5) {
+        return false;
+    }
+}
+console.log(willBuyDrinks(10.5));
 
+console.log("question number 13");
 
+function foodQuality(food) {
 
+    if (food == "expired") {
+        return ("throw it away")
+    }
+    else if (food == "good experation date") {
+        return ("keep the food")
+    }
+    else {
+        return ("read experation date")
+    }
+};
+console.log(foodQuality("expired"));
 
+console.log("in my own question above i created a boolean fuction that will return with a solution on what to do with the food that has an experation date. ")
+console.log("based of of your entry of the experation date it will decide for you to throw it away or keep the food.")
 
